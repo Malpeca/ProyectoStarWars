@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "StarWarsProyectPoligran"
+    }
+  },
+  "defaultProject": "StarWarsProyectPoligran",
+  "cli": {
+    "analytics": false
+  }
 }
