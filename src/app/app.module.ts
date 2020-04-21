@@ -5,6 +5,8 @@ import { RouterModule, Route,  } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NavegadorComponent } from './navegador/navegador.component';
 import { ContainerComponent } from './container/container.component';
+import { CuadriculaComponent } from './cuadricula/cuadricula.component';
+import { PeliculasComponent } from './peliculas/peliculas.component';
 
 const rutas: Route[] = [
 ];
@@ -13,7 +15,9 @@ const rutas: Route[] = [
   declarations: [
     AppComponent,
     NavegadorComponent,
-    ContainerComponent
+    ContainerComponent,
+    CuadriculaComponent,
+    PeliculasComponent
   ],
   imports: [
     BrowserModule,
