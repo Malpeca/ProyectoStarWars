@@ -7,8 +7,6 @@ import { NavegadorComponent } from './navegador/navegador.component';
 import { ContainerComponent } from './container/container.component';
 
 const rutas: Route[] = [
-  {},
-  {}
 ];
 
 @NgModule({
