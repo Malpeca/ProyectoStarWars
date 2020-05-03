@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  baseUrl: 'https://swapi.co/api/'
+  baseUrl: 'http://swapi.py4e.com/api/'
 };
 

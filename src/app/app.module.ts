@@ -17,7 +17,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgxLoadingModule, ngxLoadingAnimationTypes } from 'ngx-loading';
 
 const appRoutes: Routes = [
-  { path: '', component: HomeComponent, pathMatch: 'full' },
+  { path: 'home', component: HomeComponent, pathMatch: 'full' },
   { path: 'film', component: FilmComponent },
   { path: 'character', component: CharacterComponent },
   { path: 'spaceship', component: SpaceshipComponent },
