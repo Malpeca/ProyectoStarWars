@@ -16,6 +16,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HttpClientModule } from '@angular/common/http';
 import { NgxLoadingModule, ngxLoadingAnimationTypes } from 'ngx-loading';
 
+//Enrutamiento a cada componente
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent, pathMatch: 'full' },
   { path: 'film', component: FilmComponent },

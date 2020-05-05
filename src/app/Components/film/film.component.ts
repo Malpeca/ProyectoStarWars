@@ -19,7 +19,7 @@ export class FilmComponent implements OnInit {
   ngOnInit() {
     this.getFilms();
   }
-
+//Función para obtener las peliculas del repositorio API
   getFilms() {
     this.loading = true;
     this.filmService.getFilms().subscribe((data) => {
